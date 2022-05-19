@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import DiscoverBlock from './DiscoverBlock/components/DiscoverBlock';
 import '../styles/_discover.scss';
+import auth from '../../../api';
 
 export default class Discover extends Component {
   constructor() {
@@ -11,7 +12,10 @@ export default class Discover extends Component {
       playlists: [],
       categories: []
     };
-  }
+
+    auth();
+  };
+
 
   render() {
     const { newReleases, playlists, categories } = this.state;
