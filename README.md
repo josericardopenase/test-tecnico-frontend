@@ -10,6 +10,10 @@ En esta entrevista buscamos validar que tienes las siguientes capacidades.
 - Consumo de APIs
 - Unit Testing con JEST
 
+# La prueba 🧪
+
+La prueba consiste en consumir la API de Spotify para recoger datos de canciones, playlist, géneros etc... y posteriormente mostrarlos en la aplicación.
+
 # Pre-requisitos ✅
 
 - Agrega tu ID de cliente y API KEY de cliente de Spotify a un archivo `.env` en la raíz usando las variables de entorno `REACT_APP_SPOTIFY_CLIENT_ID` y `REACT_APP_SPOTIFY_CLIENT_SECRET`
@@ -27,6 +31,7 @@ En esta entrevista buscamos validar que tienes las siguientes capacidades.
 - Haz fetch y muestra los datos de los géneros _Browse_
   - Usa el api API path `categories`
 - Estado de carga de los datos en la UI
+- Realizar testing con jest de por lo menos 2 componentes usando mocks de la api.
 
 &nbsp;
 
