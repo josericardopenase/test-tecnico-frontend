@@ -69,10 +69,6 @@ npm start
 
 Haz un fork del repositorio y envianoslo!
 
-```sh
-git branch nombre_con_barra_bajas
-git push origin branch
-```
 
 ## License
 
