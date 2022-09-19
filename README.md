@@ -67,7 +67,7 @@ npm start
 
 ## ¿Cómo envío el test?
 
-Crea una rama nueva con tu nombre y apellidos separados por barra baja (Ej: jose_pena_seco) y haz push al repositorio.
+Haz un fork del repositorio y envianoslo!
 
 ```sh
 git branch nombre_con_barra_bajas
